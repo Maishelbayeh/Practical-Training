@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* Custom CSS to center the container */
+    body, html {
+        background-color: rgba(13, 13, 13, 0.578);
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .main-container {
+      background-color: rgb(255, 255, 255); /* Example background color */
+      width: 600px;
+      height:742px;
+      border-radius: 6px;
+     
+    }
+    
+ .header{
+    
+    width: 100%;
+ }
+
+ .body-container {
+  width: 560px;
+  height: 540px;
+  background-color: #D7DEE4;
+  border-radius: 6px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr); /* Divide into 4 equal parts */
+  padding: 20px; /* Adjust padding as needed */
+  margin-left: 17px;
+  margin-bottom: 27px;
+
+}
+
+.body-container > div {
+  background-color: #D7DEE4; /* Background color */
+}
+
+.body-container > div:not(:last-child) {
+  border-bottom: 2px solid #abb6bf; /* Horizontal line style */
+  width: calc(100% - 20px); /* Adjust width of the lines based on padding */
+  margin: 0 auto; /* Center the lines */
+}
+
+    .footer {
+      
+      text-align: center;
+      padding: 0px;
+    }
+
+    .full-width-button {
+      width: 100%;
+    }
+
+    /* Added style for cross button */
+    .cross-button {
+     
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-left: 440px;
+    }
+    .btn-outline-secondary {
+        margin-left:259px;
+        font-weight: bold;
+        font-size: 12px;
+        border-color: #778897;
+        color: #778897;
+    }
+
+    .btn-outline-close{
+     
+        font-weight: bold;
+        font-size: 12px;
+        border-color: #778897;
+        color: #778897;
+        width:93%;
+        
+    }
+    .bg {
+      background-color:  #0601ae;
+     
+      
+    }
+  </style>
+</head>
+<body>
+
+    <div class="main-container" >
+       
+            <!-- Header Section -->
+            <div class="header">
+              <h1 style="font-size: 12px; margin-left: 23px;;color: #70706E;margin-top: 24px;">
+                
+                <svg width="25px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>tag_round [#1174]</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                        <g id="Dribbble-Light-Preview" transform="translate(-260.000000, -2959.000000)" fill="#70706E">
+                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                <path d="M207.977728,2804.02015 L207.977728,2804.02015 C207.977728,2803.44427 208.445082,2802.97689 209.020929,2802.97689 C209.596777,2802.97689 210.064131,2803.44427 210.064131,2804.02015 C210.064131,2804.59603 209.596777,2805.0634 209.020929,2805.0634 C208.445082,2805.0634 207.977728,2804.59603 207.977728,2804.02015 L207.977728,2804.02015 Z M215.274923,2816.17617 L206.239754,2807.14053 C206.141693,2807.04246 206.087446,2806.90997 206.087446,2806.77121 L206.087446,2802.12977 C206.087446,2801.55285 206.553757,2801.08547 207.130648,2801.08547 L211.771852,2801.08547 C211.910598,2801.08547 212.043084,2801.14076 212.141145,2801.23883 L221.176314,2810.27447 C221.583163,2810.68238 221.583163,2811.34276 221.176314,2811.74963 L216.75001,2816.17617 C216.343161,2816.58304 215.682815,2816.58304 215.274923,2816.17617 L215.274923,2816.17617 Z M219.933861,2806.08162 L219.933861,2806.08162 C219.76069,2805.9074 212.984052,2799.13145 213.158267,2799.30463 C212.962145,2799.10954 212.697172,2799 212.420723,2799 L206.087446,2799 C204.934709,2799 204,2799.93371 204,2801.08547 L204,2807.42012 C204,2807.69658 204.110579,2807.96157 204.305658,2808.1577 L214.537379,2818.38891 C215.35212,2819.2037 216.672813,2819.2037 217.487553,2818.38891 L217.487553,2818.38891 C217.673243,2818.20321 223.454666,2812.42253 223.388945,2812.48721 C224.203685,2811.67243 224.203685,2810.35167 223.388945,2809.53689 L219.933861,2806.08162 Z" id="tag_round-[#1174]"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                Tag Details
+                <button class="cross-button" onclick="yourFunction()">
+                    <svg width="20px" height="20px" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 5L5 19M5.00001 5L19 19" stroke="#70706E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </h1>
+            <!-- Move the button inside the header div -->
+           
+              <h2 class="h2"style="font-size: 24px;    margin-left: 23px;;color: #000;    margin-top: 20px;  margin-bottom: 20px; font-weight: bold;
+            ">
+                <svg width="25px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>tag_round [#1174]</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                        <g id="Dribbble-Light-Preview" transform="translate(-260.000000, -2959.000000)" fill="#70706E">
+                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                <path d="M207.977728,2804.02015 L207.977728,2804.02015 C207.977728,2803.44427 208.445082,2802.97689 209.020929,2802.97689 C209.596777,2802.97689 210.064131,2803.44427 210.064131,2804.02015 C210.064131,2804.59603 209.596777,2805.0634 209.020929,2805.0634 C208.445082,2805.0634 207.977728,2804.59603 207.977728,2804.02015 L207.977728,2804.02015 Z M215.274923,2816.17617 L206.239754,2807.14053 C206.141693,2807.04246 206.087446,2806.90997 206.087446,2806.77121 L206.087446,2802.12977 C206.087446,2801.55285 206.553757,2801.08547 207.130648,2801.08547 L211.771852,2801.08547 C211.910598,2801.08547 212.043084,2801.14076 212.141145,2801.23883 L221.176314,2810.27447 C221.583163,2810.68238 221.583163,2811.34276 221.176314,2811.74963 L216.75001,2816.17617 C216.343161,2816.58304 215.682815,2816.58304 215.274923,2816.17617 L215.274923,2816.17617 Z M219.933861,2806.08162 L219.933861,2806.08162 C219.76069,2805.9074 212.984052,2799.13145 213.158267,2799.30463 C212.962145,2799.10954 212.697172,2799 212.420723,2799 L206.087446,2799 C204.934709,2799 204,2799.93371 204,2801.08547 L204,2807.42012 C204,2807.69658 204.110579,2807.96157 204.305658,2808.1577 L214.537379,2818.38891 C215.35212,2819.2037 216.672813,2819.2037 217.487553,2818.38891 L217.487553,2818.38891 C217.673243,2818.20321 223.454666,2812.42253 223.388945,2812.48721 C224.203685,2811.67243 224.203685,2810.35167 223.388945,2809.53689 L219.933861,2806.08162 Z" id="tag_round-[#1174]"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                
+                
+                Roaa Tag
+            
+               
+                <button type="button" class="btn btn-outline-secondary">Edit Tag Information
+
+
+                    <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="#778897"/>
+                        </svg>
+                </button>
+            
+            </h2>
+             
+            </div>
+
+            <div class="body-container">
+                <div >
+                    <h1 style="font-size: 15px; margin-left: 20px; color: #828c94; margin-top: 24px;">Tag Name</h1>
+                    <h1 style="font-size: 15px; margin-left: 20px; color: #000000;">Roaa Tag</h1>
+                    <h1 style="font-size: 15px;     margin-top: -48px; margin-left: 308px;color: #828c94;">Created Date</h1>
+                    <h1 style="font-size: 15px; margin-left: 308px;  margin-top: 0px; color: #000000;">2023-03-06 02:12:33</h1>
+                </div>
+
+                
+
+                
+                <div> <h1 style="font-size: 15px; margin-left: 20px; color: #828c94; margin-top: 24px;">Accounts</h1>
+                    <span class="badge bg "style="margin-left:16px">Primary</span>
+                    </div>
+                <div>
+                  <h1 style="font-size: 15px; margin-left: 20px; color: #828c94; margin-top: 24px;">Units</h1>
+                  <span class="badge bg" style="margin-left:16px">Primary</span>
+                  <span class="badge bg">Primary</span>
+                  <span class="badge bg">Primary</span>
+                  <span class="badge bg">Primary</span>
+                  <span class="badge bg">Primary</span>
+                </div>
+                <div>
+                  <h1 style="font-size: 15px; margin-left: 20px; color: #828c94; margin-top: 24px;">Drivers</h1>
+                  <span class="badge bg" style="margin-left:16px">Primary</span>
+                  <span class="badge bg">Primary</span>
+                  <span class="badge bg">Primary</span>
+
+                </div>
+              </div>
+          
+              <!-- Footer Section -->
+              <div class="footer">
+                <button type="button" class="btn btn-outline-close">Close
+
+
+                  
+              </button>
+              </div>
+            </div>
+        </div>
+</body>
+</html>
