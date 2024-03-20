@@ -65,7 +65,7 @@ margin-top: 5px;
     /* Styles for the overlay */
     width: 100%; /* Same width as the body-container */
     height: 820px; /* Same height as the body-container */
-    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.695); /* Black with 50% transparency */
     position: absolute; /* Overlay positioning */
     top:150px; /* Align to the top of the body-container */
     left: 0; /* Align to the left of the body-container */
@@ -127,7 +127,7 @@ margin-top: 5px;
     color: #fff;
   
         flex-direction: column;
-        gap :220px;
+        gap :250px;
         margin-left: 20px;
 
        
@@ -140,7 +140,7 @@ margin-top: 5px;
     color: #fff;
     font-size: 3.75rem;
     font-family: "Audrey";
-    font-size: 55px;
+ 
 }
 .paragraph{
     color: #fff;
@@ -155,15 +155,17 @@ margin-top: 5px;
 .Phone-Div {
     display: flex;
     flex-direction: row;
-    gap: 900px;
+    justify-content: end;
 }
 
 .Phone {
     background-color: #0e1927;
-    margin-top: 40px;
+    
     height: 200px;
     width: 612px;
-    position: relative; /* Added position relative */
+    position: relative; 
+    margin-top: 35px;
+    /* Added position relative */
 }
 
 .icon {
@@ -215,4 +217,488 @@ margin-top: 5px;
     font-family: "Audrey";
     font-size: 40px;
     line-height: 1.72;
+}
+
+hr {
+    border: none; /* Remove default border */
+    border-top: 4px solid #e6c9a2 ; /* Set border-top to create the line */
+    margin: 20px 0; /* Adjust margin as needed */
+    width:95px;
+  }
+  .cart_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #0e1927;
+    letter-spacing: 2.7px;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    font-family: "Cerebri Sans";
+
+  }
+
+  .body{
+    height: 700px;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .first{
+    display: flex;
+ 
+    justify-content: center;
+  }
+  .second{
+    display: flex;
+ 
+    justify-content: center;
+  }
+  .third{
+    display: flex;
+ 
+    justify-content: center;
+  }
+.h6
+{
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  margin-bottom: 21px;
+  font-family: "Audrey";
+  font-size: 40px;
+}
+
+.par{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    font-family: "Cerebri Sans";
+    color: #9f9fa0;
+    text-align: center;
+}
+
+.photo_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+    transition-property: transform;
+    box-sizing: content-box;
+   
+}
+.first_photo{
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url('https://themesflat.co/html/restaurant/basilicohtml/assets/images/section/blog-01.jpg');
+    background-repeat: no-repeat; 
+    width: 372px;
+  
+
+    flex-shrink: 0;
+  height: 96%;
+    position: relative;
+    transition-property: transform;
+}
+.first-container{
+
+}
+.second_photo{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url('https://themesflat.co/html/restaurant/basilicohtml/assets/images/section/blog-02.jpg');
+    background-repeat: no-repeat; 
+    width: 372px;
+   
+
+    flex-shrink: 0;
+  
+    height: 96%;
+    position: relative;
+    transition-property: transform;
+}
+
+.third_photo{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url('https://themesflat.co/html/restaurant/basilicohtml/assets/images/section/blog-03.jpg');
+    background-repeat: no-repeat; 
+    width: 372px;
+    margin-right: 30px;
+
+    flex-shrink: 0;
+
+    height: 96%;
+    position: relative;
+    transition-property: transform;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    width: 90px;
+    background-color: #0e1927;
+ 
+
+}
+.h7{
+    font-size: 35px;
+    color: #e6c9a2;
+     margin-top: 25px;
+    line-height: 1;
+    font-family: "Audrey";
+   
+ 
+}
+
+.date-para {
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: "Cerebri Sans";
+}
+
+.h8{
+  margin-top: 260px;
+  position: absolute;
+    left: 31px;
+    right: 30px;
+    bottom: 25px;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    font-family: "Audrey";
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.auther{
+    position: relative;
+    margin-right: 19px;
+    padding-left: 13px;
+}
+.auther-text{
+    text-transform: uppercase;
+    font-size: 13px;
+
+    text-decoration: none;
+    color: unset;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: inline-block;
+}
+.line{
+    
+        border: none; /* Remove default border */
+        border-top: 2px solid #000; /* Set border-top to create the line */
+        margin: 20px 0; /* Adjust margin as needed */
+        width:100%;
+    
+}
+.rotate{
+margin-bottom: 20px;
+letter-spacing: 0.2px;
+font-family: "Cerebri Sans";
+}
+.footer{
+    height: 535px;
+    width: 100%;
+    background-color: #0e1927;
+    margin-top: 280px;
+   
+}
+.fotter-logo {
+    background-image: url(https://themesflat.co/html/restaurant/basilicohtml/assets/images/logo/logo.png);
+    background-size: contain; /* Optional: Adjust background size */
+    background-repeat: no-repeat; /* Optional: Prevent background image from repeating */
+    width: 225px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-left: 20px;
+    margin-top:100px ;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+   
+    height: 535px;
+}
+
+
+.footer-par{
+    color: #fff;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+    padding-right: 30px;
+
+
+
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+
+    font-family: "Cerebri Sans";
+}
+.footer-icon-1 {
+    background-image: url(C:\Users\maysh\Desktop\المحترفون\task2\images\facebook-svgrepo-com.svg);
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border: 1px solid #e6c9a2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Added position absolute */
+   
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    width: 280px;
+    height: 70px;
+
+}
+.footer-icon-2{
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border: 1px solid #e6c9a2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Added position absolute */
+    margin-left: 70px;
+   
+}
+
+.footer-icon-3{
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border: 1px solid #e6c9a2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Added position absolute */
+    margin-left: 140px;
+   
+}
+
+
+.footer-icon-4{
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border: 1px solid #e6c9a2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Added position absolute */
+    margin-left: 210px;
+   
+}
+.h7{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 50px;
+
+    font-family: "Audrey";
+    font-size: 17px;
+    line-height: 1.4;
+
+    font-family: "Audrey";
+    font-weight: 500;
+}
+.first-row{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+   font-size: 17px;
+    height: 535px;
+    margin-left: 85px;
+}
+.second-row{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    font-size: 17px;
+    height: 430px;
+    margin-left: 85px;
+    margin-top:80px ;
+}
+.third-row{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    font-size: 17px;
+    height: 430px;
+    margin-left: 85px;
+    margin-top:80px ;
+}
+.fourth-row{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    font-size: 17px;
+    height: 430px;
+    margin-left: 60px;
+    margin-top:80px ;
+}
+.footer-hr {
+    border: none; /* Remove default border */
+    border-top: 4px solid #e6c9a2 ; /* Set border-top to create the line */
+    margin: 20px 0; /* Adjust margin as needed */
+    width:95px;
+    font-size: 17px;
+  }
+  h7::before{
+    font-size: 17px;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  width: 73px;
+  height: 2px;
+  background: #e6c9a2;
+  }
+
+
+
+
+
+.second-row ul li {
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 0.7px;
+    font-size: 17px; /* Adjust font size */
+
+    list-style-type: none; /* Remove bullet points */
+    font-family: "Cerebri Sans", sans-serif; /* Change font family */
+}
+.third-row ul li {
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 0.7px;
+    font-size: 17px; /* Adjust font size */
+
+    font-family: "Cerebri Sans", sans-serif; /* Change font family */
+}
+
+
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+.span{
+        color: #e6c9a2;
+        position: relative;
+        font-size: 17px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.mb-28 {
+    margin-bottom: 27px;
+    letter-spacing: 0.5px;
+
+
+
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+
+
+    font-family: "Cerebri Sans";
+}
+
+
+.form {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.form-control {
+    border: 1px solid #e6c9a2;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    width: 300px;
+    padding-right: 40px; /* Add padding for the button */
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    box-sizing: border-box;
+}
+
+.form-check-input {
+    border: 1px solid #e6c9a2;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.form-check-label {
+    color: #fff;
+    display: inline-block;
+}
+
+#exampleInputEmail1::placeholder {
+    color: white; /* Change this to the color you desire */
+}
+
+.form button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    width: 37px;
+    color: white;
 }
