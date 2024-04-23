@@ -1,0 +1,231 @@
+
+   
+   
+   :root {
+    --basic-color: #828c94; /* Define your custom color here */
+  }
+  
+
+  :root{
+    --button-color:#778897;
+  }
+  /* Custom CSS to center the container */
+    .basic-color {
+        color: #828c94; /* Your custom color */
+        background-color: #828c94; /* Your custom color for background */
+    }
+    
+    .ui-datepicker {
+      font-size: 14px;
+    }
+    body, html {
+      font-family: Arial, sans-serif;
+        background-color: rgba(13, 13, 13, 0.578);
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        gap: 386px;
+      }
+      
+      .header h1 {
+        font-size: 20px;
+        color: black;
+        margin-top: 24px;
+            margin-left: 20px;
+      }
+      
+      .header .cross-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    
+      }
+      
+   
+   
+    .main-container {
+      background-color: rgb(255, 255, 255); /* Example background color */
+      width: 600px;
+      height:742px;
+      border-radius: 6px;
+     
+    }
+    label {
+      display: inline-block;
+      color: gray;
+  }
+ .header{
+    
+    width: 100%;
+ }
+
+
+    /* Added style for cross button */
+    .cross-button {
+     
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-top: 24px;
+      margin-left: 0px;
+    }
+   
+    
+.form{
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+
+}
+.first{
+ 
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+
+}
+.buttons{
+ 
+  display: flex;
+  flex-direction: row;
+  gap: 382px;
+
+}
+.save{
+align-items: end;
+
+}
+.cancle{
+  align-items: start;
+}
+
+
+.phoneNumber {
+  display: flex;
+  flex-direction: row;
+}
+
+.country {
+  background-color: #f5f5f5; /* Gray background */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px;
+  padding: 3px; /* Adjust padding as needed */
+}
+
+.country select {
+  border: none; /* Remove border of the select element */
+  background-color: transparent; /* Make select background transparent */
+}
+
+.form input[type="text"] {
+  border:1px solid #ccc;  /* Remove border */
+  padding: 5px; /* Optional: Add padding */
+  /* Optional: Add space between select and input */
+  border-radius: 5px;
+  width: 250px; /* Adjust width as needed */
+}
+.LicenseType {
+  border:1px solid #ccc;  /* Remove border */
+  padding: 5px; /* Optional: Add padding */
+  /* Optional: Add space between select and input */
+  border-radius: 5px;
+  width: 250px; /* Adjust width as needed */
+}
+.Second input{
+  border:1px solid #ccc;  /* Remove border */
+  padding: 5px; /* Optional: Add padding */
+  /* Optional: Add space between select and input */
+  border-radius: 5px;
+  width: 100%; /* Adjust width as needed */
+}
+.form input[type="date"] {
+  border:1px solid #ccc;  /* Remove border */
+  padding: 5px; /* Optional: Add padding */
+  /* Optional: Add space between select and input */
+  border-radius: 5px;
+  width: 250px; /* Adjust width as needed */
+
+}
+/* Hide the default select dropdown arrow */
+.country {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px; /* Adjust padding as needed */
+  background: url('images/palestine.svg') no-repeat right; /* Default image */
+}
+
+.country option {
+  padding-left: 20px; /* Adjust padding to make space for the image */
+}
+.country option[value="+1"] {
+  background-image: url("images/palestine.svg");
+}
+.dropbtn { 
+  background-color: #a7a7a7; 
+  color: white; 
+  padding: 16px; 
+  font-size: 16px; 
+  border: none; 
+  cursor: pointer; 
+
+
+} 
+
+.dropdown { 
+  position: relative; 
+  display: inline-block; 
+} 
+
+.dropdown-content { 
+  display: none; 
+  position: absolute; 
+  background-color: #f9f9f9; 
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 
+    0px rgba(0, 0, 0, 0.2); 
+  z-index: 1; 
+} 
+
+.dropdown-content a { 
+  color: black; 
+  padding: 12px 16px; 
+  text-decoration: none; 
+  display: block; 
+} 
+
+.dropdown-content a:hover { 
+  background-color: #f1f1f1 
+} 
+
+.dropdown:hover .dropdown-content { 
+  display:block; 
+} 
+
+.dropdown:hover .dropbtn { 
+  background-color: #888888; 
+} 
+.dropdown-toggle{
+  background-color: lightgrey;
+  border-color: lightgrey
+}
+.selectionCountry{
+  color: black;
+}
+.btn:hover {
+  color: black;
+  background-color: #777b79;
+  border-color:#777b79;
+}
+.dropdown-menu {
+  
+
+  --bs-dropdown-link-active-bg: #424446;
+}
